@@ -1,3 +1,5 @@
+# Why does aggregation return results in an Array?
+
 Certainly! When fresher or junior developers are working with MongoDB and using aggregation, they might wonder why aggregation results are returned in an array. Understanding this is important for them to work effectively with MongoDB. 
 
 1. **Consistency**: MongoDB returns aggregation results as an array for consistency. Whether your aggregation query returns one document or a thousand, the result is always an array. This consistency simplifies the code for handling results, as developers can always expect an array and iterate through it, regardless of the number of results.
